@@ -43,6 +43,7 @@ class Game(object):
                 misses += 1
             print("")
         print("Congratulations")
+        print("The word was:", p1.guessed_letters())
         input("press <enter>")
         return misses
 

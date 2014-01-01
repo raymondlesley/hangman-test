@@ -26,7 +26,7 @@ class Word(object):
         guessed = False
         idx = 0
         for letter in self._letters :
-            if (guess == letter) :
+            if (guess.lower() == letter.lower()) :
                 guessed = True
                 if self._guesses[idx] != letter :
                     self._guesses[idx] = letter
