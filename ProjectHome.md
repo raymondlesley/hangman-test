@@ -1,0 +1,1 @@
+Object-oriented implementation of Hangman as a simple console game
